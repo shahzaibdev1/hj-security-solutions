@@ -2,9 +2,12 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useState } from "react";
+import MobileMenu from "../mobile-menu/MobileMenu";
 
 const Navbar = () => {
   const pathname = usePathname();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navLinks = [
     { name: "Home", href: "/" },
@@ -42,10 +45,17 @@ const Navbar = () => {
         <button className="hidden lg:inline-flex bg-primary text-on-primary px-6 py-2.5 rounded text-sm font-medium hover:bg-primary-container hover:text-on-primary-container transition-colors font-body-md">
           Request Quote
         </button>
-        <button className="lg:hidden text-primary">
+        <button
+          className="lg:hidden text-primary"
+          onClick={() => setIsMobileMenuOpen(true)}
+        >
           <span className="material-symbols-outlined text-3xl">menu</span>
         </button>
       </div>
+      <MobileMenu
+        // isOpen={isMobileMenuOpen}
+        // onClose={() => setIsMobileMenuOpen(false)}
+      />
     </header>
   );
 };
