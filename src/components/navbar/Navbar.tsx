@@ -20,18 +20,6 @@ const Navbar = () => {
           >
             Services
           </Link>
-          <a
-            className="font-body-md text-sm font-medium text-on-surface-variant hover:text-primary transition-all duration-300 ease-in-out active:scale-95 transform transition-transform"
-            href="#"
-          >
-            Specialist
-          </a>
-          <a
-            className="font-body-md text-sm font-medium text-on-surface-variant hover:text-primary transition-all duration-300 ease-in-out active:scale-95 transform transition-transform"
-            href="#"
-          >
-            Careers
-          </a>
           <Link
             className="font-body-md text-sm font-medium text-on-surface-variant hover:text-primary transition-all duration-300 ease-in-out active:scale-95 transform transition-transform"
             href="/our-approach"
@@ -42,8 +30,20 @@ const Navbar = () => {
             className="font-body-md text-sm font-medium text-on-surface-variant hover:text-primary transition-all duration-300 ease-in-out active:scale-95 transform transition-transform"
             href="#"
           >
-            Contact
+            Careers
           </a>
+          <Link
+            className="font-body-md text-sm font-medium text-on-surface-variant hover:text-primary transition-all duration-300 ease-in-out active:scale-95 transform transition-transform"
+            href="/about-us"
+          >
+            About Us
+          </Link>
+          <Link
+            className="font-body-md text-sm font-medium text-on-surface-variant hover:text-primary transition-all duration-300 ease-in-out active:scale-95 transform transition-transform"
+            href="/contact-us"
+          >
+            Contact
+          </Link>
         </nav>
         <button className="hidden md:inline-flex bg-primary text-on-primary px-6 py-2.5 rounded text-sm font-medium hover:bg-primary-container hover:text-on-primary-container transition-colors font-body-md">
           Request Quote
