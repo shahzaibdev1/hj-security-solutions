@@ -34,29 +34,29 @@ const ContactUs = () => {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
                 <label className="cursor-pointer">
                   <input defaultChecked={true} className="peer sr-only" name="enquiry_type" type="radio" value="general" />
-                  <div className="p-4 rounded-xl border border-outline-variant text-center transition-all duration-300 peer-checked:border-primary peer-checked:bg-primary/5 hover:bg-surface-container-low">
-                    <span className="material-symbols-outlined text-secondary mb-2 block peer-checked:text-primary">
+                  <div className="flex items-center justify-center py-5 rounded-xl border border-outline-variant text-center transition-all duration-300 peer-checked:border-primary peer-checked:bg-primary/5 hover:bg-surface-container-low">
+                    <span className="material-symbols-outlined text-secondary pr-1 peer-checked:text-primary leading-none">
                       forum
                     </span>
-                    <span className="font-body font-medium text-sm text-on-surface">General</span>
+                    <span className="font-body font-medium text-sm text-on-surface leading-none mt-0.5">General</span>
                   </div>
                 </label>
                 <label className="cursor-pointer">
                   <input className="peer sr-only" name="enquiry_type" type="radio" value="commercial" />
-                  <div className="p-4 rounded-xl border border-outline-variant text-center transition-all duration-300 peer-checked:border-primary peer-checked:bg-primary/5 hover:bg-surface-container-low">
-                    <span className="material-symbols-outlined text-secondary mb-2 block peer-checked:text-primary">
+                  <div className="flex items-center justify-center py-5 rounded-xl border border-outline-variant text-center transition-all duration-300 peer-checked:border-primary peer-checked:bg-primary/5 hover:bg-surface-container-low">
+                    <span className="material-symbols-outlined text-secondary pr-1 peer-checked:text-primary leading-none">
                       business_center
                     </span>
-                    <span className="font-body font-medium text-sm text-on-surface">Commercial</span>
+                    <span className="font-body font-medium text-sm text-on-surface leading-none mt-0.5">Commercial</span>
                   </div>
                 </label>
                 <label className="cursor-pointer">
                   <input className="peer sr-only" name="enquiry_type" type="radio" value="recruitment" />
-                  <div className="p-4 rounded-xl border border-outline-variant text-center transition-all duration-300 peer-checked:border-primary peer-checked:bg-primary/5 hover:bg-surface-container-low">
-                    <span className="material-symbols-outlined text-secondary mb-2 block peer-checked:text-primary">
+                  <div className="flex items-center justify-center py-5 rounded-xl border border-outline-variant text-center transition-all duration-300 peer-checked:border-primary peer-checked:bg-primary/5 hover:bg-surface-container-low">
+                    <span className="material-symbols-outlined text-secondary pr-1 peer-checked:text-primary leading-none">
                       badge
                     </span>
-                    <span className="font-body font-medium text-sm text-on-surface">Recruitment</span>
+                    <span className="font-body font-medium text-sm text-on-surface leading-none mt-0.5">Recruitment</span>
                   </div>
                 </label>
               </div>
