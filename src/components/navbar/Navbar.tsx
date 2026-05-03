@@ -26,12 +26,12 @@ const Navbar = () => {
           >
             Our Approach
           </Link>
-          <a
+          <Link
             className="font-body-md text-sm font-medium text-on-surface-variant hover:text-primary transition-all duration-300 ease-in-out active:scale-95 transform transition-transform"
-            href="#"
+            href="/careers"
           >
             Careers
-          </a>
+          </Link>
           <Link
             className="font-body-md text-sm font-medium text-on-surface-variant hover:text-primary transition-all duration-300 ease-in-out active:scale-95 transform transition-transform"
             href="/about-us"
