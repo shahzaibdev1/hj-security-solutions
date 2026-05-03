@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./Home.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -28,18 +29,18 @@ export default function Home() {
             intelligence with advanced technology.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-            <a
+            <Link
               className="px-8 py-4 bg-primary text-on-primary font-body-md font-medium rounded-lg text-lg hover:bg-primary-container hover:text-on-primary-container transition-all shadow-sm"
-              href="#"
+              href="/services"
             >
               Explore Services
-            </a>
-            <a
+            </Link>
+            <Link
               className="px-8 py-4 bg-transparent border border-outline text-on-surface font-body-md font-medium rounded-lg text-lg hover:border-primary hover:text-primary transition-all"
-              href="#"
+              href="/contact-us"
             >
               Request a Consultation
-            </a>
+            </Link>
           </div>
         </div>
       </section>

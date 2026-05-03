@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Careers = () => {
   return (
@@ -27,12 +28,12 @@ const Careers = () => {
             defined by discipline, respect, and continuous growth.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a
+            <Link
               className="bg-primary text-on-primary px-8 py-4 rounded-lg font-body font-medium hover:bg-primary-container hover:text-on-primary-container transition-all duration-300 shadow-[0_2px_16px_rgba(58,48,42,0.1)] w-full sm:w-auto text-center"
-              href="#roles"
+              href="/contact-us"
             >
-              View Open Roles
-            </a>
+              Contact Us
+            </Link>
             <a
               className="border border-outline-variant text-on-background px-8 py-4 rounded-lg font-body font-medium hover:border-primary hover:text-primary transition-all duration-300 w-full sm:w-auto text-center bg-surface/50 backdrop-blur-sm"
               href="#pathways"
@@ -114,7 +115,7 @@ const Careers = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-inverse-surface/90 to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-8 z-10 w-full">
                 <h3 className="font-headline text-2xl md:text-3xl text-on-primary mb-2">A Culture of Respect</h3>
-                <p className="font-body text-surface-container-low max-w-xl text-sm">
+                <p className="font-body text-surface-container-low max-w-2xl text-sm">
                   We operate on trust and mutual respect. You are not a number; you are a vital component of the HJ
                   Security Solutions family.
                 </p>
@@ -140,7 +141,7 @@ const Careers = () => {
           </div>
           <div className="flex flex-col md:flex-row gap-12 lg:gap-24 relative">
             {/* <!-- Line connecting --> */}
-            <div className="hidden md:block absolute top-1/2 left-0 w-full h-px bg-outline-variant/50 -translate-y-1/2 z-0"></div>
+            <div className="hidden md:block absolute top-[55%] left-0 w-full h-px bg-outline-variant/50 -translate-y-1/2 z-0"></div>
             {/* <!-- Step 1 --> */}
             <div className="flex-1 relative z-10">
               <div className="bg-surface w-16 h-16 rounded-full border border-primary flex items-center justify-center mb-8 mx-auto md:mx-0 shadow-[0_2px_16px_rgba(58,48,42,0.04)]">
@@ -205,8 +206,8 @@ const Careers = () => {
               </span>
             </a>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {/* <!-- Category Card 1 --> */}
+
+          {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <a className="block group" href="#">
               <div className="bg-surface-container-low p-8 rounded-xl border border-outline-variant/30 h-full flex flex-col justify-between transition-all duration-300 group-hover:border-primary/50 group-hover:shadow-[0_2px_16px_rgba(58,48,42,0.08)]">
                 <div>
@@ -229,7 +230,6 @@ const Careers = () => {
                 </div>
               </div>
             </a>
-            {/* <!-- Category Card 2 --> */}
             <a className="block group" href="#">
               <div className="bg-surface-container-low p-8 rounded-xl border border-outline-variant/30 h-full flex flex-col justify-between transition-all duration-300 group-hover:border-primary/50 group-hover:shadow-[0_2px_16px_rgba(58,48,42,0.08)]">
                 <div>
@@ -252,7 +252,6 @@ const Careers = () => {
                 </div>
               </div>
             </a>
-            {/* <!-- Category Card 3 --> */}
             <a className="block group" href="#">
               <div className="bg-surface-container-low p-8 rounded-xl border border-outline-variant/30 h-full flex flex-col justify-between transition-all duration-300 group-hover:border-primary/50 group-hover:shadow-[0_2px_16px_rgba(58,48,42,0.08)]">
                 <div>
@@ -275,7 +274,6 @@ const Careers = () => {
                 </div>
               </div>
             </a>
-            {/* <!-- Category Card 4 --> */}
             <a className="block group" href="#">
               <div className="bg-surface-container-low p-8 rounded-xl border border-outline-variant/30 h-full flex flex-col justify-between transition-all duration-300 group-hover:border-primary/50 group-hover:shadow-[0_2px_16px_rgba(58,48,42,0.08)]">
                 <div>
@@ -298,6 +296,18 @@ const Careers = () => {
                 </div>
               </div>
             </a>
+          </div> */}
+
+          <p className="font-body text-on-surface-variant text-center">
+            Contact us to learn more about our opportunities.
+          </p>
+          <div className="flex justify-center mt-8">
+            <Link
+              className="mx-auto inline-block bg-primary text-on-primary px-10 py-4 rounded-lg font-body font-medium hover:bg-primary-container hover:text-on-primary-container transition-colors duration-300 shadow-lg"
+              href="/contact-us"
+            >
+              Contact Us
+            </Link>
           </div>
         </div>
       </section>
@@ -317,12 +327,12 @@ const Careers = () => {
             Take the next step in your career. Review our current openings and begin your application process today.
             Excellence awaits.
           </p>
-          <a
+          <Link
             className="inline-block bg-primary text-on-primary px-10 py-4 rounded-lg font-body font-medium hover:bg-primary-container hover:text-on-primary-container transition-colors duration-300 shadow-lg"
-            href="#"
+            href="/contact-us"
           >
-            View Open Roles
-          </a>
+            Contact Us
+          </Link>
         </div>
       </section>
     </main>

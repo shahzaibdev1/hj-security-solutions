@@ -1,12 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 import MobileMenu from "../mobile-menu/MobileMenu";
 
 const Navbar = () => {
   const pathname = usePathname();
+  const router = useRouter();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navLinks = [
@@ -42,16 +43,18 @@ const Navbar = () => {
             );
           })}
         </nav>
-        <button className="hidden lg:inline-flex bg-primary text-on-primary px-6 py-2.5 rounded text-sm font-medium hover:bg-primary-container hover:text-on-primary-container transition-colors font-body-md">
-          Request Quote
-        </button>
-        <button 
-          className="lg:hidden text-primary"
-          onClick={() => setIsMobileMenuOpen(true)}
+        <Link
+          href="/contact-us"
+          className="hidden lg:inline-flex bg-primary text-on-primary px-6 py-2.5 rounded text-sm font-medium hover:bg-primary-container hover:text-on-primary-container font-body-md hover:scale-110 active:scale-100 transition-all duration-500 ease-in-out"
+          // onClick={() => router.push("/contact-us")}
         >
+          Request Quote
+        </Link>
+        <button className="lg:hidden text-primary" onClick={() => setIsMobileMenuOpen(true)}>
           <span className="material-symbols-outlined text-3xl">menu</span>
         </button>
       </div>
+
       <MobileMenu isOpen={isMobileMenuOpen} onClose={() => setIsMobileMenuOpen(false)} />
     </header>
   );

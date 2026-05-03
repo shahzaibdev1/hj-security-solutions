@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import "./Services.module.css";
+import Link from "next/link";
 
 const Services = () => {
   return (
@@ -23,12 +24,12 @@ const Services = () => {
               >
                 Explore Services
               </a>
-              <a
+              <Link
                 className="inline-flex items-center justify-center border border-outline text-on-surface px-8 py-3.5 rounded-lg text-base font-semibold hover:bg-surface-variant transition-colors"
-                href="#"
+                href="/contact-us"
               >
                 Consult an Expert
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -66,9 +67,9 @@ const Services = () => {
                 </p>
               </div>
               <div>
-                <a
+                <Link
                   className="inline-flex items-center gap-2 text-primary font-semibold hover:text-[#a55523] group/link"
-                  href="#"
+                  href="/contact-us"
                 >
                   Request Quote
                   <span
@@ -77,7 +78,7 @@ const Services = () => {
                   >
                     arrow_forward
                   </span>
-                </a>
+                </Link>
               </div>
             </article>
             {/*<!-- Event Security -->*/}
@@ -92,9 +93,9 @@ const Services = () => {
                 We provide security personnel for private and public events, ensuring the smooth running of operations
                 while maintaining safety for guests, staff, and organisers.
               </p>
-              <a
+              <Link
                 className="inline-flex items-center gap-2 text-on-surface font-semibold hover:text-primary text-sm group/link mt-auto"
-                href="#"
+                href="/contact-us"
               >
                 Request Quote
                 <span
@@ -103,7 +104,7 @@ const Services = () => {
                 >
                   arrow_forward
                 </span>
-              </a>
+              </Link>
             </article>
             {/*<!-- Corporate Security -->*/}
             <article className="bg-surface rounded-xl p-8 border border-outline-variant/60 shadow-[0_2px_16px_rgba(58,48,42,0.04)] flex flex-col">
@@ -117,9 +118,9 @@ const Services = () => {
                 Our corporate security services are designed to protect offices, commercial buildings, and business
                 premises with professional on-site security presence.
               </p>
-              <a
+              <Link
                 className="inline-flex items-center gap-2 text-on-surface font-semibold hover:text-primary text-sm group/link mt-auto"
-                href="#"
+                href="/contact-us"
               >
                 Request Quote
                 <span
@@ -128,7 +129,7 @@ const Services = () => {
                 >
                   arrow_forward
                 </span>
-              </a>
+              </Link>
             </article>
             {/*<!-- Construction Site Security (Large Block with Image) -->*/}
             <article className="col-span-1 md:col-span-2 lg:col-span-2 bg-inverse-surface text-inverse-on-surface rounded-xl overflow-hidden shadow-[0_2px_16px_rgba(58,48,42,0.04)] flex flex-col md:flex-row group">
@@ -146,9 +147,9 @@ const Services = () => {
                   </p>
                 </div>
                 <div>
-                  <a
+                  <Link
                     className="inline-flex items-center gap-2 text-primary-container font-semibold hover:text-white transition-colors group/link"
-                    href="#"
+                    href="/contact-us"
                   >
                     Request Quote
                     <span
@@ -157,7 +158,7 @@ const Services = () => {
                     >
                       arrow_forward
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="md:w-1/2 h-64 md:h-auto relative">
@@ -188,9 +189,9 @@ const Services = () => {
                   We offer static guarding services for premises that require a constant security presence, ensuring
                   assets and property remain protected at all times.
                 </p>
-                <a
+                <Link
                   className="inline-flex items-center gap-2 text-on-surface font-semibold hover:text-primary text-sm group/link mt-auto"
-                  href="#"
+                  href="/contact-us"
                 >
                   Request Quote
                   <span
@@ -199,7 +200,7 @@ const Services = () => {
                   >
                     arrow_forward
                   </span>
-                </a>
+                </Link>
               </div>
             </article>
             {/*<!-- Mobile Patrols -->*/}
@@ -215,9 +216,9 @@ const Services = () => {
                   Where required, we can provide mobile patrol services to monitor multiple sites or larger premises
                   during agreed time intervals.
                 </p>
-                <a
+                <Link
                   className="inline-flex items-center gap-2 text-on-surface font-semibold hover:text-primary text-sm group/link mt-auto"
-                  href="#"
+                  href="/contact-us"
                 >
                   Request Quote
                   <span
@@ -226,7 +227,7 @@ const Services = () => {
                   >
                     arrow_forward
                   </span>
-                </a>
+                </Link>
               </div>
             </article>
           </div>
