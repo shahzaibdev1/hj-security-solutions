@@ -1,4 +1,8 @@
+"use client";
+
 import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 type Props = {
   isOpen: boolean;
@@ -6,6 +10,16 @@ type Props = {
 };
 
 const MobileMenu = ({ isOpen, onClose }: Props) => {
+  const pathname = usePathname();
+
+  const navLinks = [
+    { name: "Home", href: "/" },
+    { name: "Services", href: "/services" },
+    { name: "Our Approach", href: "/our-approach" },
+    { name: "Careers", href: "/careers" },
+    { name: "About Us", href: "/about-us" },
+    { name: "Contact", href: "/contact-us" },
+  ];
   return (
     <div
       className={`bg-background text-on-background font-body-md antialiased min-h-screen fixed inset-0 z-40 transition-opacity duration-300 ease-in ${
@@ -31,46 +45,24 @@ const MobileMenu = ({ isOpen, onClose }: Props) => {
         </div>
         <div className="flex h-full flex-col w-4/5">
           <ul className="flex-1 flex flex-col gap-2 mt-4 font-serif Newsreader text-2xl leading-relaxed">
-            <li className="flex items-center gap-4 py-3 group cursor-pointer text-[#c2652a] font-bold border-l-4 border-[#c2652a] pl-4 hover:translate-x-2 transition-transform duration-300 Active items use subtle inset stroke appearance">
-              <span
-                className="material-symbols-outlined text-[28px] fill text-[#c2652a]"
-                data-icon="home"
-                data-weight="fill"
-              >
-                home
-              </span>
-              <span>Home</span>
-            </li>
-            <li className="flex items-center gap-4 py-3 group cursor-pointer text-stone-700 pl-4 hover:text-[#c2652a] hover:translate-x-2 transition-transform duration-300">
-              <span className="material-symbols-outlined text-[28px] text-[#c2652a]" data-icon="shield">
-                shield
-              </span>
-              <span>Services</span>
-            </li>
-            <li className="flex items-center gap-4 py-3 group cursor-pointer text-stone-700 pl-4 hover:text-[#c2652a] hover:translate-x-2 transition-transform duration-300">
-              <span className="material-symbols-outlined text-[28px] text-[#c2652a]" data-icon="military_tech">
-                military_tech
-              </span>
-              <span>Specialist</span>
-            </li>
-            <li className="flex items-center gap-4 py-3 group cursor-pointer text-stone-700 pl-4 hover:text-[#c2652a] hover:translate-x-2 transition-transform duration-300">
-              <span className="material-symbols-outlined text-[28px] text-[#c2652a]" data-icon="work">
-                work
-              </span>
-              <span>Careers</span>
-            </li>
-            <li className="flex items-center gap-4 py-3 group cursor-pointer text-stone-700 pl-4 hover:text-[#c2652a] hover:translate-x-2 transition-transform duration-300">
-              <span className="material-symbols-outlined text-[28px] text-[#c2652a]" data-icon="menu_book">
-                menu_book
-              </span>
-              <span>Insights</span>
-            </li>
-            <li className="flex items-center gap-4 py-3 group cursor-pointer text-stone-700 pl-4 hover:text-[#c2652a] hover:translate-x-2 transition-transform duration-300">
-              <span className="material-symbols-outlined text-[28px] text-[#c2652a]" data-icon="contact_support">
-                contact_support
-              </span>
-              <span>Contact</span>
-            </li>
+            {navLinks.map((link) => {
+              const isActive = pathname === link.href;
+              return (
+                <li key={link.name} className={`${isActive ? "border-l-4 border-[#c2652a]" : ""} flex items-center gap-4 py-3 group cursor-pointer pl-4 hover:translate-x-2 transition-transform duration-300`}>
+                  <Link
+                    href={link.href}
+                    onClick={onClose}
+                    className={`flex items-center gap-4 w-full ${
+                      isActive
+                        ? "text-[#c2652a] font-bold border-[#c2652a]"
+                        : "text-stone-700 hover:text-[#c2652a]"
+                    }`}
+                  >
+                    <span>{link.name}</span>
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
 
           <div className="mt-auto pt-6 border-t border-outline-variant/30 flex flex-col gap-6">
