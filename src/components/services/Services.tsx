@@ -40,9 +40,9 @@ const Services = () => {
             alt="Abstract architectural lines"
             className="w-full h-full object-cover object-center mix-blend-multiply"
             data-alt="A warm-toned architectural abstract photograph featuring smooth, sweeping structural lines in golden and desert hues. The lighting creates deep, soft shadows and bright highlights that emphasize the geometric curves. The style is modern, minimalist, and editorial, perfectly complementing a sun-baked simplicity aesthetic with burnt sienna undertones."
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUrrcMgM15O70ebFRqzqaYc9y6JUwSCSwCEj8oI7VdpbmzU4nIvw1u7eau7qbQK_iwZMjtou0KtINH7NIyhiS7N1YcxafI-qv-C1NS8QHyM76YXuzIHGAhuhoH-l6XYocR4ct3WJfgstkdwJLdFrrG0EVZL8x3AZ4n6Phw6kdyA-ZaK3BwOimemYSdTeZTa0ql504v3VODNlMkf9oM7UHW4gJKgBPpREKEXW0WSICzXdSJpqWb9qr-ZnUYgXUChJHc-nyx2yaWNjoN"
+            src="/images/services/abstract-architecture.png"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-background via-background/0 to-transparent"></div>
           <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background"></div>
         </div>
       </section>
@@ -167,7 +167,7 @@ const Services = () => {
                   alt="Construction Site Security"
                   className="absolute inset-0 w-full h-full object-cover opacity-80"
                   data-alt="A macro photograph of a sleek, modern security camera lens reflecting warm, golden light. The composition is highly editorial, focusing on the geometric precision and premium materials of the technology. The color palette relies on deep blacks, warm charcoal, and burnt sienna reflections, creating a sophisticated and secure atmosphere fitting a luxury brand."
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaicFEiPj4eW6lkdU_SSOBdkEj4zLx2XXu_D9Bv8kzC4bgUZPp0gzF33woEQGh3A6usAt3RPPrrO_0X2aStu5tKPzz4iYnpkQsb4wV1NfvzNWetdjRAF-Fu0_G280Yfohyz1wWTmHaMfvg7uq1iDZUZwED4M8szBzysJP_CsZFInRRigueCe3Enk3wchHb0ELOjav6b7LnGPIL-YE1iKL_U6sNEjWlYiR-T2XO_p4_ZVdNqk5l52dkzsXM2niUlXgTq-a5UQl3W_be"
+                  src="/images/services/construction-site-security.png"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-inverse-surface via-transparent to-transparent hidden md:block"></div>
                 <div className="absolute inset-0 bg-gradient-to-t from-inverse-surface via-transparent to-transparent md:hidden"></div>
