@@ -45,17 +45,14 @@ const Navbar = () => {
         <button className="hidden lg:inline-flex bg-primary text-on-primary px-6 py-2.5 rounded text-sm font-medium hover:bg-primary-container hover:text-on-primary-container transition-colors font-body-md">
           Request Quote
         </button>
-        <button
+        <button 
           className="lg:hidden text-primary"
           onClick={() => setIsMobileMenuOpen(true)}
         >
           <span className="material-symbols-outlined text-3xl">menu</span>
         </button>
       </div>
-      <MobileMenu
-        // isOpen={isMobileMenuOpen}
-        // onClose={() => setIsMobileMenuOpen(false)}
-      />
+      <MobileMenu isOpen={isMobileMenuOpen} onClose={() => setIsMobileMenuOpen(false)} />
     </header>
   );
 };
