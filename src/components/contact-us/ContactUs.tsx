@@ -33,7 +33,13 @@ const ContactUs = () => {
             <form className="space-y-6 relative z-10">
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
                 <label className="cursor-pointer">
-                  <input defaultChecked={true} className="peer sr-only" name="enquiry_type" type="radio" value="general" />
+                  <input
+                    defaultChecked={true}
+                    className="peer sr-only"
+                    name="enquiry_type"
+                    type="radio"
+                    value="general"
+                  />
                   <div className="flex items-center justify-center py-5 rounded-xl border border-outline-variant text-center transition-all duration-300 peer-checked:border-primary peer-checked:bg-primary/5 hover:bg-surface-container-low">
                     <span className="material-symbols-outlined text-secondary pr-1 peer-checked:text-primary leading-none">
                       forum
@@ -47,7 +53,9 @@ const ContactUs = () => {
                     <span className="material-symbols-outlined text-secondary pr-1 peer-checked:text-primary leading-none">
                       business_center
                     </span>
-                    <span className="font-body font-medium text-sm text-on-surface leading-none mt-0.5">Commercial</span>
+                    <span className="font-body font-medium text-sm text-on-surface leading-none mt-0.5">
+                      Commercial
+                    </span>
                   </div>
                 </label>
                 <label className="cursor-pointer">
@@ -56,7 +64,9 @@ const ContactUs = () => {
                     <span className="material-symbols-outlined text-secondary pr-1 peer-checked:text-primary leading-none">
                       badge
                     </span>
-                    <span className="font-body font-medium text-sm text-on-surface leading-none mt-0.5">Recruitment</span>
+                    <span className="font-body font-medium text-sm text-on-surface leading-none mt-0.5">
+                      Recruitment
+                    </span>
                   </div>
                 </label>
               </div>
@@ -207,14 +217,15 @@ const ContactUs = () => {
       {/* <!-- Full Width Map Section --> */}
       <section className="w-full h-96 mt-8 relative overflow-hidden bg-surface-container-high border-t border-b border-outline-variant/30">
         {/* <!-- Simulated Map Interface using an Image with data-location --> */}
-        <Image
-          fill
-          alt="Map view"
-          className="w-full h-full object-cover object-center opacity-80 mix-blend-multiply grayscale-[30%] sepia-[20%] transition-opacity duration-700 hover:opacity-100"
-          data-alt="A stylized, warm-toned minimalist map of London and the UK, rendered in a high-end editorial style. The map uses a palette of soft earthy tones, burnt sienna, and warm linen backgrounds. The cartography is clean and modern, devoid of clutter, with subtle golden accents highlighting key locations. The lighting is bright and flat, emphasizing the sophisticated, luxury aesthetic of the Sahara Security brand identity."
-          data-location="London, UK"
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdaE1yTC1E6shdvkjmBcTjL_zORn4Nbilynz7WuxN3aUDOz9IvpRP9xUqWjGA4d0r40E5kd5_h3_E687R1ZiXMkfCIbGt5SbURo6x6fJYuJXIJVOu3xRg1M_mYC6PIKXEKWgP4gemy0QixrP0Q6dzCVrJZwfxdzlFrOMdC67rl9Y2GhQXYTM2HlTylWKkIdR37MQ9cy-_N_n5v_6LaMfgHAQL_dRLC_hE22GRGbgqDA3vNnbEYgzybYvfkBUpv0kmgupTfI9B432lU"
-        />
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.1918949634355!2d-0.09879002337145111!3d51.39952867178905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487606cd7e44fdeb%3A0x56af9810d95de0e5!2s5%20Grange%20Park%20Rd%2C%20Thornton%20Heath%20CR7%208QE%2C%20UK!5e0!3m2!1sen!2s!4v1777839223216!5m2!1sen!2s"
+          width="100%"
+          height="100%"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
         {/* <!-- Map Overlay UI --> */}
         <div className="absolute bottom-6 right-6 flex flex-col gap-2">
           <button className="w-10 h-10 bg-surface text-on-surface rounded-lg shadow-sm border border-outline-variant/50 flex items-center justify-center hover:bg-surface-variant hover:text-primary transition-colors focus:outline-none">

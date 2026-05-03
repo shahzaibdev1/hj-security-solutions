@@ -164,7 +164,7 @@ const Footer = () => {
             © 2024 HJ Security Solutions. All rights reserved.
           </p>
           <button
-            className="group flex items-center gap-2 font-body-md text-xs font-semibold text-primary uppercase tracking-widest hover:translate-y-[-2px] transition-transform"
+            className="cursor-pointer group flex items-center gap-2 font-body-md text-xs font-semibold text-primary uppercase tracking-widest hover:translate-y-[-2px] transition-transform"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             type="button"
           >

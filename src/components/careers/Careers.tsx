@@ -196,7 +196,7 @@ const Careers = () => {
                 Explore roles across our diverse specialist divisions.
               </p>
             </div>
-            <a
+            {/* <a
               className="text-primary font-body font-medium flex items-center gap-2 hover:gap-3 transition-all duration-300 group"
               href="#"
             >
@@ -204,7 +204,7 @@ const Careers = () => {
               <span className="material-symbols-outlined text-sm transition-transform group-hover:translate-x-1">
                 arrow_forward
               </span>
-            </a>
+            </a> */}
           </div>
 
           {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
