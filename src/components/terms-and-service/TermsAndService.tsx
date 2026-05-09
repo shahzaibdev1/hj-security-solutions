@@ -9,14 +9,14 @@ const TermsAndService = () => {
           <Image
             fill
             alt=""
-            className="w-full h-full object-cover opacity-60 mix-blend-multiply"
+            className="w-full h-full object-cover brightness-20 mix-blend-darken"
             data-alt="A sophisticated abstract macro photograph showing layers of warm, sun-baked sand and textured stone in off-white and terracotta hues. The lighting is soft and natural, emphasizing a minimalist, high-end corporate aesthetic suitable for an executive security firm. The mood is calm, permanent, and quietly luxurious, perfectly reflecting the 'Sun-Baked Simplicity' theme."
-            src="https://lh3.googleusercontent.com/aida/ADBb0uhyaYc9vU9ZomSmtNsFa1iJyYF2h17kF_V0mQJIPC49clH0VF2u6bBskdl-44WXPkJQuMTgDZC2DITSbOIIHZJIkHYB0U_cBDdxl_h9KURi1eerwK9TA-klpY1jhByCUJcFT3LjIWWEj46JyzMR-nQ2zXh7Rva9Cvo_n6r7UGMOMzUXPtbgPcqDt8SK-EeaWkPHZdBTJ-i6KpkvEN56Z1vOwIkFFhLf9Q2QEecpVZXCI0Hl9SkaTZOMIutznS4FtJCxJjep0YM81A"
+            src="/images/terms-and-service/terms-and-service.png"
           />
         </div>
         <div className="relative z-10 px-lg py-24 md:py-32 flex flex-col items-center text-center">
-          <h1 className="font-display-xl text-display-xl text-on-surface mb-md">Terms of Service</h1>
-          <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+          <h1 className="font-display-xl text-display-xl text-inverse-on-surface mb-md">Terms of Service</h1>
+          <p className="font-body-lg text-body-lg text-inverse-on-surface max-w-2xl">
             Effective Date: October 24, 2024. These terms govern the provision of professional security solutions by HJ
             Security Solutions Limited.
           </p>
@@ -64,7 +64,7 @@ const TermsAndService = () => {
               Welcome to HJ Security Solutions Limited. By engaging our services, you agree to be bound by the following
               Terms and Conditions. Please read them carefully.
             </p>
-            <section className="mt-lg" id="section-1">
+            <section className="mt-lg scroll-mt-24" id="section-1">
               <h2 className="font-headline-lg text-headline-lg text-on-surface mb-md">1. Definitions</h2>
               <p>In these Terms, unless the context otherwise requires:</p>
               <ul className="list-disc pl-md space-y-sm mt-sm">
@@ -82,7 +82,7 @@ const TermsAndService = () => {
                 </li>
               </ul>
             </section>
-            <section className="mt-lg" id="section-2">
+            <section className="mt-lg scroll-mt-24" id="section-2">
               <h2 className="font-headline-lg text-headline-lg text-on-surface mb-md">2. Service Provision</h2>
               <div className="bg-surface-container-low p-md rounded-lg border-l-4 border-primary">
                 <p className="mb-sm">
@@ -97,7 +97,7 @@ const TermsAndService = () => {
                 </p>
               </div>
             </section>
-            <section className="mt-lg" id="section-3">
+            <section className="mt-lg scroll-mt-24" id="section-3">
               <h2 className="font-headline-lg text-headline-lg text-on-surface mb-md">3. Client Obligations</h2>
               <p>The Client agrees to:</p>
               <ol className="list-decimal pl-md space-y-sm mt-sm">
@@ -106,7 +106,7 @@ const TermsAndService = () => {
                 <li>Promptly settle all invoices in accordance with the payment terms specified in the SLA.</li>
               </ol>
             </section>
-            <section className="mt-lg" id="section-4">
+            <section className="mt-lg scroll-mt-24" id="section-4">
               <h2 className="font-headline-lg text-headline-lg text-on-surface mb-md">4. Liability &amp; Insurance</h2>
               <p>
                 While the Company maintains comprehensive public and employer&apos;s liability insurance, the Company
@@ -117,7 +117,7 @@ const TermsAndService = () => {
                 limited to the total fees paid by the Client in the twelve (12) months preceding the claim.
               </p>
             </section>
-            <section className="mt-lg border-t border-outline-variant/30 pt-lg" id="section-5">
+            <section className="mt-lg scroll-mt-24 border-t border-outline-variant/30 pt-lg" id="section-5">
               <h2 className="font-headline-lg text-headline-lg text-on-surface mb-md">5. Governing Law</h2>
               <p>
                 These Terms of Service and any dispute or claim arising out of or in connection with them shall be

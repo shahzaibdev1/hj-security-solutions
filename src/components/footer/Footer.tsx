@@ -66,44 +66,6 @@ const Footer = () => {
               </li> */}
             </ul>
           </div>
-          {/* <!-- Resources Links --> */}
-          {/* <div>
-            <h5 className="font-headline-md text-lg font-semibold text-on-surface mb-6">Resources</h5>
-            <ul className="space-y-4">
-              <li>
-                <a
-                  className="font-body-md text-sm text-on-surface-variant hover:text-primary transition-colors"
-                  href="#"
-                >
-                  Insights
-                </a>
-              </li>
-              <li>
-                <a
-                  className="font-body-md text-sm text-on-surface-variant hover:text-primary transition-colors"
-                  href="#"
-                >
-                  Case Studies
-                </a>
-              </li>
-              <li>
-                <a
-                  className="font-body-md text-sm text-on-surface-variant hover:text-primary transition-colors"
-                  href="#"
-                >
-                  Security Briefings
-                </a>
-              </li>
-              <li>
-                <a
-                  className="font-body-md text-sm text-on-surface-variant hover:text-primary transition-colors"
-                  href="#"
-                >
-                  FAQ
-                </a>
-              </li>
-            </ul>
-          </div> */}
           {/* <!-- Contact & Social --> */}
           <div>
             <h5 className="font-headline-md text-lg font-semibold text-on-surface mb-6">Contact</h5>
