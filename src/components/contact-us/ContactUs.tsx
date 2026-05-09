@@ -227,14 +227,14 @@ const ContactUs = () => {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
         {/* <!-- Map Overlay UI --> */}
-        <div className="absolute bottom-6 right-6 flex flex-col gap-2">
+        {/* <div className="absolute bottom-6 right-6 flex flex-col gap-2">
           <button className="w-10 h-10 bg-surface text-on-surface rounded-lg shadow-sm border border-outline-variant/50 flex items-center justify-center hover:bg-surface-variant hover:text-primary transition-colors focus:outline-none">
             <span className="material-symbols-outlined">add</span>
           </button>
           <button className="w-10 h-10 bg-surface text-on-surface rounded-lg shadow-sm border border-outline-variant/50 flex items-center justify-center hover:bg-surface-variant hover:text-primary transition-colors focus:outline-none">
             <span className="material-symbols-outlined">remove</span>
           </button>
-        </div>
+        </div> */}
       </section>
     </main>
   );
