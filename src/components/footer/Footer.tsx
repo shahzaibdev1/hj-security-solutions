@@ -150,18 +150,15 @@ const Footer = () => {
         {/* <!-- Bottom Bar --> */}
         <div className="border-t border-outline-variant/30 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex gap-6">
-            <a className="font-body-md text-xs text-on-surface-variant hover:text-primary transition-colors" href="#">
+            <Link className="font-body-md text-xs text-on-surface-variant hover:text-primary transition-colors" href="privacy-policy">
               Privacy Policy
-            </a>
-            <a className="font-body-md text-xs text-on-surface-variant hover:text-primary transition-colors" href="#">
+            </Link>
+            <Link className="font-body-md text-xs text-on-surface-variant hover:text-primary transition-colors" href="/terms-and-service">
               Terms of Service
-            </a>
-            <a className="font-body-md text-xs text-on-surface-variant hover:text-primary transition-colors" href="#">
-              Cookie Policy
-            </a>
+            </Link>
           </div>
           <p className="font-body-md text-xs text-on-surface-variant order-last md:order-none">
-            © 2024 HJ Security Solutions. All rights reserved.
+            © {new Date().getFullYear()} HJ Security Solutions. All rights reserved.
           </p>
           <button
             className="cursor-pointer group flex items-center gap-2 font-body-md text-xs font-semibold text-primary uppercase tracking-widest hover:translate-y-[-2px] transition-transform"
