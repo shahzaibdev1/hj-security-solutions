@@ -12,7 +12,7 @@ const Careers = () => {
             alt="Background image of professionals in a corporate setting"
             className="w-full h-full object-cover mix-blend-overlay opacity-30"
             data-alt="A cinematic, wide-angle shot of a diverse team of security professionals in a modern, light-filled corporate atrium. The scene is bathed in warm, sun-baked natural light filtering through large glass windows, emphasizing a luxurious, warm-minimalist aesthetic. The color palette features rich earthy tones, soft warm linens, and deep burnt sienna accents, projecting professionalism, excellence, and a high-end editorial feel."
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDBhThdGd-VohA3g2CZIm8-3AU38-YWkuWWdhiHzOt_K52PSeSgI7BJ0CmIVF-kLsxzq7w0Lv85jn-VHNAEZ2MOe-5bBcuftF1DqUl8u29Q7NMD5BibIRT64LoGSv3v-Cbhtq77w_YXdBZrimfwYZahapBt7i0G31dIM3i9_Hnq6BR5JdgKXVvJq20KJoW-qKfInhh4NEhLgEOKnZ6x-e56yXJegTL3ylSHX8hF4N83IbvIVdAeP4MNYxXTOptY_9p7TPd5BB4pYF4G"
+            src="/images/careers/careers-hero.png"
           />
         </div>
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
@@ -110,7 +110,7 @@ const Careers = () => {
                 alt="Team collaborating"
                 className="absolute inset-0 w-full h-full object-cover"
                 data-alt="A warm, editorial style photograph of three security professionals in sharp, minimalist uniforms reviewing documents in a well-lit, contemporary briefing room. The lighting is soft and golden, highlighting a burnt sienna accent wall in the background. The atmosphere conveys deep focus, camaraderie, and high-end corporate culture, entirely aligned with a luxurious warm-minimalist aesthetic."
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4y8g3wJo-H9E1ESUqgCQmdSnzAodFg_N4YC2-ydl9ZXHC4pkEutD4KE3P9pAMq0yz8q3AeDqylgBRkcPCCWG2_10INZJ-UPk-_dN1tj9_fGugWoLSPnzG97KrF6np-if85gam16qtN2hOlBwpv6Nfp7o66V3Bf5GwH3EW66LgYikIsq018w0_LygtsLNAvxEIh4RwDsRcUjWGMDJq9kUoVTQ8AxeJ0Gd0cG38-2rZ0CEeKMuq0PQl8Dvi59cgXJo4zntjrcrw1JKr"
+                src="/images/careers/careers.png"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-inverse-surface/90 to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-8 z-10 w-full">

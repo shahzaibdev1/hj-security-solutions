@@ -78,7 +78,7 @@ const OurApproach = () => {
                 alt="Security professionals in a modern corporate setting"
                 className="w-full h-full object-cover"
                 data-alt="A meticulously composed photograph of professional security personnel in a sophisticated, modern corporate lobby. The environment features warm, sun-baked lighting reflecting off sleek architectural surfaces, embodying a luxurious and disciplined aesthetic. The color palette is dominated by warm linen background tones, deep burnt sienna accents, and rich, earthy neutral colors. The mood is calm, authoritative, and securely ordered, perfectly aligning with a premium corporate identity."
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVyi5kRLcXRv1WEEMml5da11zcMeu2PrOMG_Y_F80j6a2G5rsz_fbzFyJjD4QTKS8GWOCjEWu2YZsL64sYS-a9_2b_Yj7szf5imszNydBmKfKWzL3nGoPAAg_lcEcIFd2xqnvKBBikyLtH0AJwf11X0SwV8LqsgmrzUPCNDztSaE8Zzq4bfOl4tCF25AOtD63g4uN7MV0Sn7BxDpKqg6l9Im6O2k5G3Gcza07cd8UQQ7ceV8BbUxC_iLAya31LT-xFRtceGFe4pG10"
+                src="/images/approach/approach.png"
               />
             </div>
           </div>

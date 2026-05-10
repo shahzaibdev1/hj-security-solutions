@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
@@ -12,6 +13,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* <!-- Brand & Address --> */}
           <div className="lg:col-span-2">
+            <Image
+              src="/logo/logo-bg.jpg"
+              alt="HJ Security Solutions Logo"
+              className="ml-14 mb-2"
+              width={100}
+              height={100}
+            />
             <h4 className="text-2xl font-headline-md font-bold text-primary mb-6 tracking-tight">
               HJ Security Solutions
             </h4>
@@ -112,10 +120,16 @@ const Footer = () => {
         {/* <!-- Bottom Bar --> */}
         <div className="border-t border-outline-variant/30 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex gap-6">
-            <Link className="font-body-md text-xs text-on-surface-variant hover:text-primary transition-colors" href="privacy-policy">
+            <Link
+              className="font-body-md text-xs text-on-surface-variant hover:text-primary transition-colors"
+              href="privacy-policy"
+            >
               Privacy Policy
             </Link>
-            <Link className="font-body-md text-xs text-on-surface-variant hover:text-primary transition-colors" href="/terms-and-service">
+            <Link
+              className="font-body-md text-xs text-on-surface-variant hover:text-primary transition-colors"
+              href="/terms-and-service"
+            >
               Terms of Service
             </Link>
           </div>
@@ -124,7 +138,7 @@ const Footer = () => {
           </p>
           <button
             className="cursor-pointer group flex items-center gap-2 font-body-md text-xs font-semibold text-primary uppercase tracking-widest hover:translate-y-[-2px] transition-transform"
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             type="button"
           >
             Back to top

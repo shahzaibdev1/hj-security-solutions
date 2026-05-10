@@ -73,7 +73,7 @@ const MobileMenu = ({ isOpen, onClose }: Props) => {
                 alt="HJ HQ"
                 className="w-12 h-12 rounded-full object-cover shadow-sm"
                 data-alt="A sophisticated macro shot of a sleek brushed metal surface reflecting warm, golden hour sunlight. The texture conveys strength, precision, and an authoritative yet luxurious executive security aesthetic. A subtle burnt orange tint permeates the deep stone-grey shadows."
-                src="https://lh3.googleusercontent.com/aida/ADBb0uhyaYc9vU9ZomSmtNsFa1iJyYF2h17kF_V0mQJIPC49clH0VF2u6bBskdl-44WXPkJQuMTgDZC2DITSbOIIHZJIkHYB0U_cBDdxl_h9KURi1eerwK9TA-klpY1jhByCUJcFT3LjIWWEj46JyzMR-nQ2zXh7Rva9Cvo_n6r7UGMOMzUXPtbgPcqDt8SK-EeaWkPHZdBTJ-i6KpkvEN56Z1vOwIkFFhLf9Q2QEecpVZXCI0Hl9SkaTZOMIutznS4FtJCxJjep0YM81A"
+                src="/logo/logo.png"
               />
               <div className="flex flex-col">
                 <span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">
