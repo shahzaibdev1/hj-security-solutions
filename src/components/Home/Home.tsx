@@ -25,7 +25,7 @@ export default function Home() {
             <span className="italic text-primary">Matters Most</span>
           </h1>
           <p className="font-body-lg text-lg md:text-2xl text-on-surface-variant max-w-3xl mx-auto mb-12 leading-relaxed">
-            Complete security solutions for people, places, assets, and society across the UK & Ireland. We blend human
+            Complete security solutions for people, places, assets, and society across the UK. We blend human
             intelligence with advanced technology.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">

@@ -6,7 +6,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer
-      className="w-full pt-16 pb-8 border-t border-outline-variant/30 relative"
+      className="w-full pt-16 pb-8 border-t border-outline-variant/30 relative text-center md:text-left"
       style={{ backgroundColor: "#fdf7f4" }}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -24,7 +24,7 @@ const Footer = () => {
               HJ Security Solutions
             </h4>
             <p className="font-body-md text-sm text-on-surface-variant mb-6">
-              Providing premium security excellence across the UK &amp; Ireland. We combine elite human intelligence
+              Providing premium security excellence across the UK. We combine elite human intelligence
               with cutting-edge technological solutions.
             </p>
             <div className="space-y-2">
