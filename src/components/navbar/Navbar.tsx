@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 import MobileMenu from "../mobile-menu/MobileMenu";
+import Image from "next/image";
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -22,7 +23,14 @@ const Navbar = () => {
   return (
     <header className="bg-background/95 backdrop-blur-md sticky top-0 w-full z-50 border-b border-outline-variant/40 shadow-sm shadow-[#1b1c19]/04">
       <div className="flex justify-between items-center max-w-7xl mx-auto px-6 py-5">
-        <Link className="text-2xl font-headline-md font-bold text-primary tracking-tighter" href="#">
+        <Link className="text-2xl font-headline-md font-bold text-primary tracking-tighter p-2" href="/">
+          <Image
+            src="/logo/logo-bg.jpg"
+            alt="HJ Security Solutions Logo"
+            width={32}
+            height={32}
+            className="inline-block mr-2"
+          />
           HJ Security Solutions
         </Link>
         <nav className="hidden lg:flex items-center space-x-8">

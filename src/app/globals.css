@@ -120,6 +120,7 @@ h1, h2, h3, h4, h5, h6, .font-serif {
 
 @layer utilities {
   .material-symbols-outlined {
+    font-family: "Material Symbols Outlined";
     font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
   }
   .material-symbols-outlined.fill-icon {
